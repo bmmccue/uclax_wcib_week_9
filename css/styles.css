@@ -1,0 +1,15 @@
+body .row {
+  background-color: #0cb3f8; }
+
+body .price {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px; }
+  body .price.alt {
+    background-color: #1b8bf9; }
+  body .price button {
+    background-color: white;
+    border-radius: 20px;
+    border-color: #1b8bf9;
+    color: #242526;
+    box-shadow: none; }
