@@ -1,9 +1,25 @@
 body {
 
+  li {
+    list-style-type: none;
+  }
+
   .row {
     background-color: #0cb3f8;
   }
 
+  .download_btn {
+    color: white;
+    background-color: #0cb3f8;
+    border-radius: 30px;
+    padding: 15px;
+  }
+
+  .learn_more {
+    color: white;
+  }
+
+//price//
   .price {
     background-color: white;
     border-radius: 5px;
@@ -12,13 +28,17 @@ body {
      &.alt {
        background-color: #1b8bf9;
      }
+
+
      button {
        background-color: white;
        border-radius: 20px;
        border-color: #1b8bf9;
        color: #242526;
        box-shadow: none;
+     }
 
      }
-  }
+     //price//
+
 }

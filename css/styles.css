@@ -1,5 +1,17 @@
+body li {
+  list-style-type: none; }
+
 body .row {
   background-color: #0cb3f8; }
+
+body .download_btn {
+  color: white;
+  background-color: #0cb3f8;
+  border-radius: 30px;
+  padding: 15px; }
+
+body .learn_more {
+  color: white; }
 
 body .price {
   background-color: white;
