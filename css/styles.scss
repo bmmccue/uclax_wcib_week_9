@@ -8,6 +8,8 @@ body {
   nav {
     background-color: #0cb3f8;
     text-decoration: none;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: bold;
 
     a {
       color: white;
@@ -30,10 +32,13 @@ body {
 
     h1 {
       margin: 10px;
+      font-family: 'Montserrat', arial, sans-serif;
+      font-weight: bold;
     }
 
     p {
       margin: 10px;
+      font-family: 'Montserrat', arial, sans-serif;
     }
 
     .row {
@@ -66,22 +71,49 @@ body {
     color: white;
     border-radius: 20px;
   }
-
   //new button//
+
 
   .big_thing {
     background-color: #f5f4f4;
+    h1 {
+      font-family: 'Montserrat', arial, sans-serif;
+      font-weight: bold;
+    }
+
+    p {
+      font-family: 'Montserrat', arial, sans-serif;
+    }
+
   }
 
   .choose_license {
     background-color: #222222;
     color: white;
+
+    h1 {
+      font-family: 'Montserrat', arial, sans-serif;
+      font-weight: bold;
+    }
+
+    p {
+      font-family: 'Montserrat', arial, sans-serif;
+    }
   }
 
 
   //price//
   .pricing {
     background-color: #222222;
+
+    h1, h3 {
+      font-family: 'Montserrat', arial, sans-serif;
+      font-weight: bold;
+    }
+
+    p, li {
+      font-family: 'Montserrat', arial, sans-serif;
+    }
   }
 
   .price {
@@ -120,6 +152,8 @@ body {
      //footer//
      footer {
        background-color: white;
+       font-family: 'Montserrat', arial, sans-serif;
+       font-weight: bold;
 
        a {
          color: #242526;
