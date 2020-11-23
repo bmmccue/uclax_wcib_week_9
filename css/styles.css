@@ -1,3 +1,6 @@
+body nav {
+  background-color: #0cb3f8; }
+
 body li {
   list-style-type: none; }
 
@@ -12,6 +15,9 @@ body .download_btn {
 
 body .learn_more {
   color: white; }
+
+body .new-btn {
+  background-color: white; }
 
 body .price {
   background-color: white;
