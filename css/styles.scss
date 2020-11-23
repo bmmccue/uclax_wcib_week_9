@@ -27,7 +27,20 @@ body {
     background-color: white;
   }
 
+  .big_thing {
+    background-color: #f5f4f4;
+  }
+
+  .choose_license {
+    background-color: #222222;
+    color: white;
+  }
+
 //price//
+  .pricing {
+    background-color: #222222;
+  }
+
   .price {
     background-color: white;
     border-radius: 5px;
@@ -36,7 +49,6 @@ body {
      &.alt {
        background-color: #1b8bf9;
      }
-
 
      button {
        background-color: white;

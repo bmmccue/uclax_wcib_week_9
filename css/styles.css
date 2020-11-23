@@ -19,6 +19,16 @@ body .learn_more {
 body .new-btn {
   background-color: white; }
 
+body .big_thing {
+  background-color: #f5f4f4; }
+
+body .choose_license {
+  background-color: #222222;
+  color: white; }
+
+body .pricing {
+  background-color: #222222; }
+
 body .price {
   background-color: white;
   border-radius: 5px;
