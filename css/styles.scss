@@ -1,15 +1,44 @@
 body {
 
+  u {
+    margin-top: 10px;
+  }
+
+  //nav//
   nav {
     background-color: #0cb3f8;
-  }
+    text-decoration: none;
 
-  li {
-    list-style-type: none;
-  }
+    a {
+      color: white;
+    }
 
-  .row {
+    li{
+      display: inline;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+  }
+  //nav//
+
+
+  //hero image//
+  .hero-image {
     background-color: #0cb3f8;
+    color: white;
+
+    h1 {
+      margin: 10px;
+    }
+
+    p {
+      margin: 10px;
+    }
+
+    .row {
+      background-color: #0cb3f8;
+    }
   }
 
   .download_btn {
@@ -22,10 +51,23 @@ body {
   .learn_more {
     color: white;
   }
+  //hero image//
 
-  .new-btn {
+
+  //new button//
+  .new_btn {
     background-color: white;
+    color: #292534;
+    margin: 20px;
   }
+
+  .small_btn {
+    background-color: #0081ff;
+    color: white;
+    border-radius: 20px;
+  }
+
+  //new button//
 
   .big_thing {
     background-color: #f5f4f4;
@@ -36,7 +78,8 @@ body {
     color: white;
   }
 
-//price//
+
+  //price//
   .pricing {
     background-color: #222222;
   }
@@ -48,6 +91,7 @@ body {
 
      &.alt {
        background-color: #1b8bf9;
+       color: white;
      }
 
      button {
@@ -58,7 +102,35 @@ body {
        box-shadow: none;
      }
 
+  }
+  //price//
+
+
+     //subscribe now//
+     .subscribe_now {
+       background-image: url("../images/coast_photo.png");
+
+       h2,p {
+         color: white;
+       }
      }
-     //price//
+     //subscribe now//
+
+
+     //footer//
+     footer {
+       background-color: white;
+
+       a {
+         color: #242526;
+       }
+
+       li{
+         display: inline;
+         padding-left: 30px;
+         padding-right: 30px;
+       }
+     }
+     //footer//
 
 }
