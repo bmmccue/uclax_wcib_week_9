@@ -6,11 +6,11 @@ body {
 
   //nav//
   nav {
-
+    float: right;
     background-color: #0cb3f8;
     text-decoration: none;
     font-family: 'Montserrat', arial, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     padding: 30px;
 
     a {
@@ -36,15 +36,15 @@ body {
     color: white;
 
     h1 {
-      margin: 10px;
-      font-family: 'Montserrat', arial, sans-serif;
-      font-weight: bold;
+      margin-top: 60px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 70pt;
     }
 
     p {
       margin: 10px;
-      font-family: 'Montserrat', arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 21pt;
     }
 
@@ -65,15 +65,15 @@ body {
    border-radius: 35px;
    padding: 20px;
    margin: 20px;
-   font-family: 'Montserrat', arial, sans-serif;
-   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
    font-size: 10pt;
  }
 
   .learn_more {
     color: white;
-    font-family: 'Montserrat', arial, sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 10pt;
   }
   //hero image//
@@ -100,14 +100,16 @@ body {
     background-color: #f5f4f4;
 
     h1 {
-      font-family: 'Montserrat', arial, sans-serif;
-      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 44pt;
+      margin-top: 68px;
+      margin-bottom: 37px;
     }
 
     p {
-      font-family: 'Montserrat', arial, sans-serif;
-      font-weight: lighter;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
       font-size: 16pt;
     }
 
@@ -120,14 +122,15 @@ body {
     padding-top: 68px;
 
     h1 {
-      font-family: 'Montserrat', arial, sans-serif;
-      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 44pt;
       margin-bottom: 39px;
     }
 
     p {
-      font-family: 'Montserrat', arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
       color: #bcc6d0;
       font-size: 16pt;
       margin-bottom: 84px;
@@ -141,8 +144,8 @@ body {
     background-color: #222222;
 
     h1, h3, button {
-      font-family: 'Montserrat', arial, sans-serif;
-      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
     }
 
     button {
@@ -173,7 +176,7 @@ body {
     }
 
     p, li {
-      font-family: 'Montserrat', arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 12pt;
     }
 
@@ -186,6 +189,7 @@ body {
   .price {
     background-color: white;
     border-radius: 5px;
+    margin-bottom: 100px;
 
      &.alt {
        background-color: #1b8bf9;
@@ -210,13 +214,34 @@ body {
 
      h1 {
          color: white;
-         font-family: 'Montserrat', arial, sans-serif;
-         font-weight: bold;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 700;
+         padding-top: 65px;
+         padding-bottom: 24px;
        }
 
       p {
          color: white;
-         font-family: 'Montserrat', arial, sans-serif;
+         font-family: 'Montserrat', sans-serif;
+         font-weight: 300;
+         padding-bottom: 55px;
+
+       }
+
+       input {
+         border-radius: 6px;
+       }
+
+       label {
+
+         button {
+           background-color: white;
+           color: #242525;
+           font-family: 'Montserrat', sans-serif;
+           font-weight: 700;
+           border-radius: 6px;
+         }
+
        }
 
      }
@@ -227,9 +252,10 @@ body {
      footer {
 
        background-color: white;
-       font-family: 'Montserrat', arial, sans-serif;
-       font-weight: bold;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 700;
        padding: 30px;
+       text-align: center;
 
        a {
          color: #242526;
