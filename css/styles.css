@@ -1,5 +1,8 @@
 body u {
-  margin-top: 10px; }
+  padding-top: 10px; }
+
+body button:focus {
+  outline: none; }
 
 body nav {
   float: right;
@@ -43,7 +46,8 @@ body .download {
   margin: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 10pt; }
+  font-size: 10pt;
+  border-color: white; }
 
 body .learn_more {
   color: white;
@@ -55,12 +59,20 @@ body .new_btn {
   background-color: white;
   color: #292534;
   margin: 20px; }
+  body .new_btn p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt; }
+  body .new_btn button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9pt; }
 
 body .small_btn {
   background-color: #0081ff;
   color: white;
   border-radius: 35px;
-  padding: 15px; }
+  padding: 5px 25px;
+  border: none;
+  box-shadow: 5px 5px 12px 0px rgba(12, 179, 248, 0.5); }
 
 body .big_thing {
   background-color: #f5f4f4; }
@@ -140,20 +152,20 @@ body .subscribe_now {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding-top: 65px;
-    padding-bottom: 24px; }
+    padding-bottom: 20px; }
   body .subscribe_now p {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    padding-bottom: 55px; }
-  body .subscribe_now input {
-    border-radius: 6px; }
-  body .subscribe_now label button {
-    background-color: white;
-    color: #242525;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    border-radius: 6px; }
+    padding-bottom: 40px; }
+  body .subscribe_now .email_field {
+    padding-bottom: 100px; }
+    body .subscribe_now .email_field button {
+      background-color: white;
+      color: #242525;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      border-radius: 7px; }
 
 body footer {
   background-color: white;
