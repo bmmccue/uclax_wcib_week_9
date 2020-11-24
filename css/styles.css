@@ -4,6 +4,13 @@ body u {
 body button:focus {
   outline: none; }
 
+body .circle_logo {
+  margin-right: 8px; }
+
+body .awesome_app {
+  color: white;
+  display: inline-block; }
+
 body nav {
   float: right;
   background-color: #0cb3f8;
@@ -125,13 +132,11 @@ body .pricing {
     font-size: 12pt;
     margin-top: 34px;
     margin-bottom: 38px; }
+  body .pricing .per_month {
+    margin-bottom: 49px; }
   body .pricing p {
-    margin-bottom: 51px; }
-  body .pricing p, body .pricing li {
     font-family: 'Montserrat', sans-serif;
     font-size: 12pt; }
-  body .pricing li {
-    list-style-type: none; }
 
 body .price {
   background-color: white;

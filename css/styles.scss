@@ -9,7 +9,17 @@ body {
   }
 
   //nav//
+  .circle_logo {
+    margin-right: 8px;
+  }
+
+  .awesome_app {
+    color: white;
+    display: inline-block;
+  }
+
   nav {
+
     float: right;
     background-color: #0cb3f8;
     text-decoration: none;
@@ -190,17 +200,13 @@ body {
       margin-bottom: 38px;
     }
 
-    p {
-      margin-bottom: 51px;
+    .per_month {
+      margin-bottom: 49px;
     }
 
-    p, li {
+    p {
       font-family: 'Montserrat', sans-serif;
       font-size: 12pt;
-    }
-
-    li {
-      list-style-type: none;
     }
 
   }
