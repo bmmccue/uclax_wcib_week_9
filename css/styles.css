@@ -5,13 +5,16 @@ body nav {
   background-color: #0cb3f8;
   text-decoration: none;
   font-family: 'Montserrat', arial, sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 30px; }
   body nav a {
     color: white; }
   body nav li {
     display: inline;
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px;
+    font-size: 12pt;
+    list-style-type: none; }
 
 body .hero-image {
   background-color: #0cb3f8;
@@ -19,21 +22,33 @@ body .hero-image {
   body .hero-image h1 {
     margin: 10px;
     font-family: 'Montserrat', arial, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 70pt; }
   body .hero-image p {
     margin: 10px;
-    font-family: 'Montserrat', arial, sans-serif; }
+    font-family: 'Montserrat', arial, sans-serif;
+    font-size: 21pt; }
   body .hero-image .row {
     background-color: #0cb3f8; }
 
 body .download_btn {
+  background-color: #0cb3f8; }
+
+body .download {
   color: white;
   background-color: #0cb3f8;
-  border-radius: 30px;
-  padding: 15px; }
+  border-radius: 35px;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-weight: bold;
+  font-size: 10pt; }
 
 body .learn_more {
-  color: white; }
+  color: white;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-weight: bold;
+  font-size: 10pt; }
 
 body .new_btn {
   background-color: white;
@@ -43,56 +58,91 @@ body .new_btn {
 body .small_btn {
   background-color: #0081ff;
   color: white;
-  border-radius: 20px; }
+  border-radius: 35px;
+  padding: 15px; }
 
 body .big_thing {
   background-color: #f5f4f4; }
   body .big_thing h1 {
     font-family: 'Montserrat', arial, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 44pt; }
   body .big_thing p {
-    font-family: 'Montserrat', arial, sans-serif; }
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: lighter;
+    font-size: 16pt; }
 
 body .choose_license {
   background-color: #222222;
-  color: white; }
+  color: white;
+  padding-top: 68px; }
   body .choose_license h1 {
     font-family: 'Montserrat', arial, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 44pt;
+    margin-bottom: 39px; }
   body .choose_license p {
-    font-family: 'Montserrat', arial, sans-serif; }
+    font-family: 'Montserrat', arial, sans-serif;
+    color: #bcc6d0;
+    font-size: 16pt;
+    margin-bottom: 84px; }
 
 body .pricing {
   background-color: #222222; }
-  body .pricing h1, body .pricing h3 {
+  body .pricing h1, body .pricing h3, body .pricing button {
     font-family: 'Montserrat', arial, sans-serif;
     font-weight: bold; }
+  body .pricing button {
+    background-color: white;
+    border-color: #1b8bf9;
+    color: #242526;
+    font-size: 10pt;
+    padding: 15px 30px 15px 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 35px;
+    box-shadow: none; }
+  body .pricing h1 {
+    font-size: 48pt;
+    margin-bottom: 25px; }
+  body .pricing h3 {
+    font-size: 12pt;
+    margin-top: 34px;
+    margin-bottom: 38px; }
+  body .pricing p {
+    margin-bottom: 51px; }
   body .pricing p, body .pricing li {
-    font-family: 'Montserrat', arial, sans-serif; }
+    font-family: 'Montserrat', arial, sans-serif;
+    font-size: 12pt; }
+  body .pricing li {
+    list-style-type: none; }
 
 body .price {
   background-color: white;
-  border-radius: 5px;
-  padding: 10px; }
+  border-radius: 5px; }
   body .price.alt {
     background-color: #1b8bf9;
     color: white; }
-  body .price button {
-    background-color: white;
-    border-radius: 20px;
-    border-color: #1b8bf9;
-    color: #242526;
-    box-shadow: none; }
+  body .price .btn-primary {
+    border-radius: 33px;
+    padding: 10px 37px 10px 37px;
+    margin: 76px 20px 50px 20px; }
 
 body .subscribe_now {
   background-image: url("../images/coast_photo.png"); }
-  body .subscribe_now h2, body .subscribe_now p {
-    color: white; }
+  body .subscribe_now h1 {
+    color: white;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: bold; }
+  body .subscribe_now p {
+    color: white;
+    font-family: 'Montserrat', arial, sans-serif; }
 
 body footer {
   background-color: white;
   font-family: 'Montserrat', arial, sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 30px; }
   body footer a {
     color: #242526; }
   body footer li {

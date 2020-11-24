@@ -6,10 +6,12 @@ body {
 
   //nav//
   nav {
+
     background-color: #0cb3f8;
     text-decoration: none;
     font-family: 'Montserrat', arial, sans-serif;
     font-weight: bold;
+    padding: 30px;
 
     a {
       color: white;
@@ -19,6 +21,8 @@ body {
       display: inline;
       padding-left: 30px;
       padding-right: 30px;
+      font-size: 12pt;
+      list-style-type: none;
     }
 
   }
@@ -27,6 +31,7 @@ body {
 
   //hero image//
   .hero-image {
+
     background-color: #0cb3f8;
     color: white;
 
@@ -34,27 +39,42 @@ body {
       margin: 10px;
       font-family: 'Montserrat', arial, sans-serif;
       font-weight: bold;
+      font-size: 70pt;
     }
 
     p {
       margin: 10px;
       font-family: 'Montserrat', arial, sans-serif;
+      font-size: 21pt;
     }
 
     .row {
       background-color: #0cb3f8;
     }
+
   }
 
+
   .download_btn {
-    color: white;
     background-color: #0cb3f8;
-    border-radius: 30px;
-    padding: 15px;
   }
+
+  .download {
+   color: white;
+   background-color: #0cb3f8;
+   border-radius: 35px;
+   padding: 20px;
+   margin: 20px;
+   font-family: 'Montserrat', arial, sans-serif;
+   font-weight: bold;
+   font-size: 10pt;
+ }
 
   .learn_more {
     color: white;
+    font-family: 'Montserrat', arial, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
   }
   //hero image//
 
@@ -69,36 +89,50 @@ body {
   .small_btn {
     background-color: #0081ff;
     color: white;
-    border-radius: 20px;
+    border-radius: 35px;
+    padding: 15px;
   }
   //new button//
 
 
   .big_thing {
+
     background-color: #f5f4f4;
+
     h1 {
       font-family: 'Montserrat', arial, sans-serif;
       font-weight: bold;
+      font-size: 44pt;
     }
 
     p {
       font-family: 'Montserrat', arial, sans-serif;
+      font-weight: lighter;
+      font-size: 16pt;
     }
 
   }
 
   .choose_license {
+
     background-color: #222222;
     color: white;
+    padding-top: 68px;
 
     h1 {
       font-family: 'Montserrat', arial, sans-serif;
       font-weight: bold;
+      font-size: 44pt;
+      margin-bottom: 39px;
     }
 
     p {
       font-family: 'Montserrat', arial, sans-serif;
+      color: #bcc6d0;
+      font-size: 16pt;
+      margin-bottom: 84px;
     }
+
   }
 
 
@@ -106,33 +140,64 @@ body {
   .pricing {
     background-color: #222222;
 
-    h1, h3 {
+    h1, h3, button {
       font-family: 'Montserrat', arial, sans-serif;
       font-weight: bold;
     }
 
+    button {
+      background-color: white;
+      border-color: #1b8bf9;
+      color: #242526;
+      font-size: 10pt;
+      padding: 15px 30px 15px 30px;
+      margin-left: 90px;
+      margin-right: 90px;
+      border-radius: 35px;
+      box-shadow: none;
+    }
+
+    h1 {
+      font-size: 48pt;
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      font-size: 12pt;
+      margin-top: 34px;
+      margin-bottom: 38px;
+    }
+
+    p {
+      margin-bottom: 51px;
+    }
+
     p, li {
       font-family: 'Montserrat', arial, sans-serif;
+      font-size: 12pt;
     }
+
+    li {
+      list-style-type: none;
+    }
+
   }
 
   .price {
     background-color: white;
     border-radius: 5px;
-    padding: 10px;
 
      &.alt {
        background-color: #1b8bf9;
        color: white;
      }
 
-     button {
-       background-color: white;
-       border-radius: 20px;
-       border-color: #1b8bf9;
-       color: #242526;
-       box-shadow: none;
-     }
+
+  .btn-primary {
+    border-radius: 33px;
+    padding: 10px 37px 10px 37px;
+    margin: 76px 20px 50px 20px;
+  }
 
   }
   //price//
@@ -140,20 +205,31 @@ body {
 
      //subscribe now//
      .subscribe_now {
+
        background-image: url("../images/coast_photo.png");
 
-       h2,p {
+     h1 {
          color: white;
+         font-family: 'Montserrat', arial, sans-serif;
+         font-weight: bold;
        }
+
+      p {
+         color: white;
+         font-family: 'Montserrat', arial, sans-serif;
+       }
+
      }
      //subscribe now//
 
 
      //footer//
      footer {
+
        background-color: white;
        font-family: 'Montserrat', arial, sans-serif;
        font-weight: bold;
+       padding: 30px;
 
        a {
          color: #242526;
