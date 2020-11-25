@@ -206,16 +206,19 @@ body .subscribe_now {
     font-weight: 300;
     padding-bottom: 40px; }
 
-body .input-group button {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  background-color: white;
-  color: #242525;
-  padding: 15px 60px 15px 60px;
-  font-size: 10pt; }
-
-body .input-group .form-control {
-  padding: 15px 60px 15px 60px; }
+body .form-inline {
+  padding-bottom: 90px; }
+  body .form-inline .form-group {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 570px; }
+  body .form-inline button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15px 60px 15px 60px;
+    background-color: white;
+    color: #242525;
+    font-size: 10pt;
+    border: none; }
 
 body footer {
   background-color: white;
