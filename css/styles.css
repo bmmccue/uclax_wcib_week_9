@@ -201,7 +201,8 @@ body .subscribe_now {
     font-weight: 300;
     padding-bottom: 40px; }
   body .subscribe_now .email_field {
-    padding-bottom: 100px; }
+    padding-bottom: 100px;
+    margin: auto; }
     body .subscribe_now .email_field button {
       background-color: white;
       color: #242525;
@@ -234,7 +235,7 @@ body footer {
 
 body .bottom_info {
   background-color: white;
-  padding-left: 190px; }
+  padding-left: 230px; }
   body .bottom_info .mission {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
