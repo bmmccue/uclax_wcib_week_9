@@ -192,7 +192,8 @@ body .price {
     margin: 76px 20px 50px 20px; }
 
 body .subscribe_now {
-  background-image: url("../images/coast_photo.png"); }
+  background-image: url("../images/coast_photo.png");
+  background-size: cover; }
   body .subscribe_now h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -204,15 +205,26 @@ body .subscribe_now {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding-bottom: 40px; }
-  body .subscribe_now .email_field {
-    padding-bottom: 100px;
-    margin: auto; }
-    body .subscribe_now .email_field button {
-      background-color: white;
-      color: #242525;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 700;
-      border-radius: 7px; }
+
+body .input-bar {
+  display: table;
+  width: 50%; }
+
+body .input-bar-item {
+  display: table-cell; }
+
+body .input-bar-item > button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10pt;
+  padding: 15px 60px 15px 60px;
+  background-color: white;
+  color: #242525;
+  border: none;
+  margin-left: 5px; }
+
+body .width100 {
+  width: 50%; }
 
 body footer {
   background-color: white;

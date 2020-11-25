@@ -49,7 +49,7 @@ body {
   .iphone {
     float: right;
   }
-  
+
   .hero-image {
 
     background-color: #0cb3f8;
@@ -299,10 +299,11 @@ body {
   //price//
 
 
-     //subscribe now//
+  //subscribe now//
      .subscribe_now {
 
        background-image: url("../images/coast_photo.png");
+       background-size: cover;
 
      h1 {
          color: white;
@@ -320,23 +321,36 @@ body {
 
        }
 
-       .email_field {
-
-         padding-bottom: 100px;
-         margin: auto;
-
-         button {
-           background-color: white;
-           color: #242525;
-           font-family: 'Montserrat', sans-serif;
-           font-weight: 700;
-           border-radius: 7px;
-         }
-
-       }
-
      }
-     //subscribe now//
+
+      //email input//
+     .input-bar {
+     display: table;
+     width: 50%;
+     }
+
+     .input-bar-item {
+     display: table-cell;
+     }
+
+     .input-bar-item > button {
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 700;
+       font-size: 10pt;
+       padding: 15px 60px 15px 60px;
+       background-color: white;
+       color: #242525;
+       border: none;
+       margin-left: 5px;
+     }
+
+     .width100 {
+     width: 50%;
+     }
+
+
+     //email input//
+//subscribe now//
 
 
      //footer//
