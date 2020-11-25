@@ -77,11 +77,15 @@ body {
     padding-bottom: 100px;
   }
 
+  .apple {
+    padding-right: 20px;
+  }
+
   .download {
    color: white;
    background-color: #0cb3f8;
-   border-radius: 35px;
-   padding: 20px;
+   border-radius: 30px;
+   padding: 16px 25px 16px 25px;
    margin-right: 40px;
    margin-left: 98px;
    font-family: 'Montserrat', sans-serif;
@@ -132,7 +136,7 @@ body {
   }
   //new button//
 
-
+ //content//
   .big_thing {
 
     background-color: #f5f4f4;
@@ -153,6 +157,26 @@ body {
     }
 
   }
+
+  .app_content {
+
+    background-color: #f5f4f4;
+
+  }
+
+    .app_content {
+
+    .title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+  }
+  //content//
 
   .choose_license {
 
