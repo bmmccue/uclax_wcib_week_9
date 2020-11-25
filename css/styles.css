@@ -206,25 +206,16 @@ body .subscribe_now {
     font-weight: 300;
     padding-bottom: 40px; }
 
-body .input-bar {
-  display: table;
-  width: 50%; }
-
-body .input-bar-item {
-  display: table-cell; }
-
-body .input-bar-item > button {
+body .input-group button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 10pt;
-  padding: 15px 60px 15px 60px;
   background-color: white;
   color: #242525;
-  border: none;
-  margin-left: 5px; }
+  padding: 15px 60px 15px 60px;
+  font-size: 10pt; }
 
-body .width100 {
-  width: 50%; }
+body .input-group .form-control {
+  padding: 15px 60px 15px 60px; }
 
 body footer {
   background-color: white;

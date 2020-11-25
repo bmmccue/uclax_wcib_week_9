@@ -324,29 +324,25 @@ body {
      }
 
       //email input//
-     .input-bar {
-     display: table;
-     width: 50%;
-     }
 
-     .input-bar-item {
-     display: table-cell;
-     }
+    .input-group {
 
-     .input-bar-item > button {
+
+
+     button {
        font-family: 'Montserrat', sans-serif;
        font-weight: 700;
-       font-size: 10pt;
-       padding: 15px 60px 15px 60px;
        background-color: white;
        color: #242525;
-       border: none;
-       margin-left: 5px;
+       padding: 15px 60px 15px 60px;
+       font-size: 10pt;
      }
 
-     .width100 {
-     width: 50%;
+     .form-control {
+       padding: 15px 60px 15px 60px;
      }
+
+   }
 
 
      //email input//
