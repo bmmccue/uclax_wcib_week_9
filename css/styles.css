@@ -228,8 +228,7 @@ body footer {
   text-align: center;
   margin-bottom: 40px; }
   body footer .logo_black {
-    margin-right: 140px;
-    margin-left: -50px; }
+    margin-left: -30px; }
   body footer .twitter {
     margin-right: 20px;
     margin-left: 100px; }
@@ -239,8 +238,8 @@ body footer {
     color: #242526; }
   body footer li {
     display: inline;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 11pt; }
 
 body .bottom_info {
