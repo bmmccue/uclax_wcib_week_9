@@ -104,17 +104,25 @@ body .big_thing {
   body .big_thing p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 16pt; }
+    font-size: 16pt;
+    padding-bottom: 75px; }
 
 body .app_content {
-  background-color: #f5f4f4; }
-
-body .app_content .title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700; }
-
-body .app_content p {
-  font-family: 'Montserrat', sans-serif; }
+  text-align: center;
+  background-color: #f5f4f4;
+  font-size: 13px; }
+  body .app_content .iphone {
+    margin-top: -30px;
+    margin-bottom: 100px; }
+  body .app_content .app_text_1 {
+    margin-left: 125px; }
+  body .app_content .app_text_2 {
+    margin-right: 125px; }
+  body .app_content .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; }
+  body .app_content p {
+    font-family: 'Montserrat', sans-serif; }
 
 body .choose_license {
   background-color: #222222;
