@@ -7,29 +7,33 @@ body button:focus {
 body .circle_logo {
   margin-right: 8px; }
 
-body .awesome_app {
-  color: white;
-  margin-right: 100px; }
-
 body nav {
   float: right;
   background-color: #0cb3f8;
   text-decoration: none;
   font-family: 'Montserrat', arial, sans-serif;
   font-weight: 700;
-  padding: 30px; }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 100px; }
+  body nav .awesome_app {
+    color: white; }
   body nav a {
     color: white; }
   body nav li {
     display: inline;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 12pt;
     list-style-type: none; }
 
+body .iphone {
+  float: right; }
+
 body .hero-image {
   background-color: #0cb3f8;
-  color: white; }
+  color: white;
+  padding-top: 50px; }
   body .hero-image h1 {
     margin-top: 60px;
     margin-left: 90px;
