@@ -1,8 +1,13 @@
 body {
   font-family: arial, sans-serif;
   color: white;
-  background-color: #dd9d72;
+  background-color: #867f79;
   margin: 50px;
   padding: 10px; }
   body ol {
-    text-decoration: none; }
+    margin-bottom: 50px; }
+  body li {
+    padding: 20px;
+    display: inline; }
+  body h3 {
+    margin-bottom: 30px; }
